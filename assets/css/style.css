@@ -12,10 +12,13 @@
 }
 
 .sidebar {
-	height: 300px;
-	/*background-color: #f09a9d;*/
+	height: 325px;
+	/* background-color: #f09a9d; */
 	width: 200px;
 	float: left;
+	border-radius: 10px;
+	padding: 0px 20px 0 10px;
+	/* border: 3px solid rgb(5, 54, 78); */
 }
 
 .content	{
@@ -23,9 +26,9 @@
 	width: 650px;
 	/*background-color: #f5cf8e;*/
 	float: left;
-
-
-
+	padding-left: 15px;
+	/* padding-top: 10px; */
+    justify-content: center;
 }
 
 .footer	{
@@ -40,6 +43,7 @@
 
 .page {
 	width: 900px;
+	height: 510px;
 	margin: 0 auto;
 	/*border: 1px solid red;*/ /*put border around recognized heights*/
 	/*background-color: #EAEDF0;*/
@@ -64,12 +68,24 @@
 	margin: 8.5px 1.16%;
 	float: left;
 	border-radius: 10px;
+	border-right: 3px solid rgb(0, 95, 150);
+	border-bottom: 3px solid rgb(0, 95, 150);
+
 }
 
 .article-image {
-	/*float: left;*/
-	width: 50%;
+	/* float: left; */
+	width: 30%;
+	margin: 0 15px 8px 0;
 
+}
+
+.f-left {
+	float: left;
+}
+
+.f-right {
+	float: right;
 }
 .avatar {
 	float: left;
@@ -101,11 +117,11 @@
 	font-family: 'Archivo Black', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 0.2rem;
-	color: #FFF;
+	color: #fff;
 }
 
 .logo-container {
-	margin-top: 1em;
+	margin-top: 0.5em;
 	margin-left: 1.2em;
 	float: left;
 }
